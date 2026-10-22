@@ -11,8 +11,6 @@ class ZapSignServiceProvider extends PackageServiceProvider
     {
         $package
             ->name('filament-zapsign')
-            ->hasConfigFile()
-            ->hasViews()
-            ->hasMigrations();
+            ->hasTranslations();
     }
 }
